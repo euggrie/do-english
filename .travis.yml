@@ -28,4 +28,4 @@ before_install:
   - ln -s /usr/lib/chromium-browser/chromedriver ~/bin/chromedriver
 
 before_script:
-  - psql -c 'create database "ruby2-rails5-bootstrap-heroku_test";' -U postgres
+  - psql -c 'create database "do-english_test";' -U postgres
